@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cannes.id/sitemap.xml

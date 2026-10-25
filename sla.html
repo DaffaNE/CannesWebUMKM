@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFCF02">
+  <title>SLA Cannes - Service Level Agreement</title>
+  <meta name="description" content="Service Level Agreement Cannes: waktu respons, target uptime, kewajiban, dan aturan kerja untuk proyek website dan pemeliharaan.">
+  <link rel="canonical" href="https://cannes.id/sla.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Cannes">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:title" content="SLA Cannes - Service Level Agreement">
+  <meta property="og:description" content="Waktu respons, target uptime 99,5%, kewajiban, dan aturan kerja untuk proyek website Cannes.">
+  <meta property="og:url" content="https://cannes.id/sla.html">
+  <meta property="og:image" content="https://cannes.id/assets/img/og-cannes.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SLA Cannes - Service Level Agreement">
+  <meta name="twitter:description" content="Waktu respons, target uptime 99,5%, kewajiban, dan aturan kerja untuk proyek website Cannes.">
+  <meta name="twitter:image" content="https://cannes.id/assets/img/og-cannes.jpg">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/logo-cannes-600.png">
+
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="sla-page">
+  <header class="site-header">
+    <div class="container header-inner--simple">
+      <a class="brand" href="index.html" aria-label="Cannes - beranda">
+        <span class="brand-mark" aria-hidden="true">C<span class="brand-dot"></span></span>
+        <span class="brand-word">Cannes</span>
+      </a>
+      <a class="btn btn--ghost btn--sm" href="index.html" data-sla-i18n="back">Kembali ke beranda</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="sla-hero">
+      <div class="container sla-hero__inner">
+        <div>
+          <p class="eyebrow" data-sla-i18n="eyebrow">Dokumen resmi</p>
+          <h1>SLA <span>Cannes</span></h1>
+          <p class="sla-lead" data-sla-i18n="lead">
+            Standar layanan, waktu respons, kewajiban, dan aturan kerja antara Cannes dan Klien.
+            Dokumen ini melengkapi proposal atau invoice yang disetujui.
+          </p>
+        </div>
+
+        <aside class="sla-meta" aria-labelledby="sla-meta-title">
+          <h2 id="sla-meta-title" data-sla-i18n="metaTitle">Ringkasan dokumen</h2>
+          <dl>
+            <div>
+              <dt data-sla-i18n="kVersion">Versi</dt>
+              <dd>1.0</dd>
+            </div>
+            <div>
+              <dt data-sla-i18n="kEffective">Berlaku</dt>
+              <dd data-sla-i18n="effective">25 Oktober 2026</dd>
+            </div>
+            <div>
+              <dt data-sla-i18n="kScope">Cakupan</dt>
+              <dd data-sla-i18n="scopeMeta">Proyek dan pemeliharaan</dd>
+            </div>
+            <div>
+              <dt data-sla-i18n="kLanguage">Bahasa</dt>
+              <dd data-sla-i18n="languageMeta">Indonesia (mengikat)</dd>
+            </div>
+          </dl>
+
+          <div class="sla-switch" role="group" aria-label="Bahasa dokumen" data-sla-switch>
+            <button type="button" data-sla-lang-btn="id" aria-pressed="true">Bahasa Indonesia</button>
+            <button type="button" data-sla-lang-btn="en" aria-pressed="false">English</button>
+          </div>
+          <button class="btn btn--ghost btn--sm sla-print" type="button" data-sla-print data-sla-i18n="print">Cetak / simpan PDF</button>
+        </aside>
+      </div>
+    </section>
+
+    <section class="sla-summary" aria-label="Ringkasan komitmen layanan">
+      <div class="container sla-summary__grid">
+        <div class="sla-stat">
+          <b>2</b>
+          <span data-sla-i18n="stat1">jam kerja untuk respons kritis</span>
+        </div>
+        <div class="sla-stat">
+          <b data-sla-i18n="stat2v">99,5%</b>
+          <span data-sla-i18n="stat2">target uptime bulanan</span>
+        </div>
+        <div class="sla-stat">
+          <b>30</b>
+          <span data-sla-i18n="stat3">hari garansi bug setelah peluncuran</span>
+        </div>
+        <div class="sla-stat">
+          <b data-sla-i18n="stat4v">Sen-Sab</b>
+          <span data-sla-i18n="stat4">09.00-20.00 WIB</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="sla-body">
+      <div class="container">
+
+        
+        <article class="sla-layout" id="sla-id" data-sla-doc="id" lang="id" aria-label="SLA Cannes versi Bahasa Indonesia">
+          <aside class="sla-toc">
+            <h2>Isi dokumen</h2>
+            <nav aria-label="Isi dokumen">
+              <ol>
+                <li><a href="#id-scope"><span class="n">01</span><span>Ruang lingkup</span></a></li>
+                <li><a href="#id-definitions"><span class="n">02</span><span>Definisi dan jam layanan</span></a></li>
+                <li><a href="#id-cannes"><span class="n">03</span><span>Kewajiban Cannes</span></a></li>
+                <li><a href="#id-client"><span class="n">04</span><span>Kewajiban Klien</span></a></li>
+                <li><a href="#id-levels"><span class="n">05</span><span>Tingkat layanan</span></a></li>
+                <li><a href="#id-uptime"><span class="n">06</span><span>Uptime dan pemeliharaan</span></a></li>
+                <li><a href="#id-change"><span class="n">07</span><span>Permintaan perubahan</span></a></li>
+                <li><a href="#id-legal"><span class="n">08</span><span>Kepatuhan hukum</span></a></li>
+                <li><a href="#id-billing"><span class="n">09</span><span>Penagihan dan pengakhiran</span></a></li>
+                <li><a href="#id-terms"><span class="n">10</span><span>Tanggung jawab dan sengketa</span></a></li>
+              </ol>
+            </nav>
+          </aside>
+
+          <div class="sla-doc">
+            <p class="sla-intro">
+              Dokumen ini mengatur standar layanan, waktu respons, hak, dan kewajiban Para Pihak.
+              Dengan menyetujui proposal atau invoice Cannes, Klien menyetujui SLA ini.
+              Versi Bahasa Indonesia adalah versi yang mengikat.
+            </p>
+
+            <section class="sla-section" id="id-scope">
+              <div class="sla-sec-head"><span class="sla-num">01</span><h2>Ruang lingkup</h2></div>
+              <ol class="sla-clauses">
+                <li>SLA ini berlaku untuk seluruh proyek pembuatan website dan paket pemeliharaan yang dikerjakan Cannes.</li>
+                <li>Cakupan meliputi komunikasi proyek, target respons dan perbaikan, ketersediaan website yang dikelola Cannes, kewajiban Para Pihak, kepatuhan hukum, dan penegakan aturan.</li>
+                <li>SLA tidak mencakup gangguan internal pada registrar domain, penyedia hosting, payment gateway, atau layanan pihak ketiga lainnya. Cannes tetap membantu koordinasi dan komunikasi dengan penyedia tersebut.</li>
+                <li>Urutan prioritas dokumen: (1) proposal atau invoice yang ditandatangani, (2) SLA ini, (3) materi pemasaran di website. Jika terjadi pertentangan, ketentuan khusus dalam proposal berlaku untuk proyek tersebut.</li>
+              </ol>
+            </section>
+
+            <section class="sla-section" id="id-definitions">
+              <div class="sla-sec-head"><span class="sla-num">02</span><h2>Definisi dan jam layanan</h2></div>
+              <ol class="sla-clauses">
+                <li><strong>Hari Kerja:</strong> Senin sampai Jumat, 09.00-17.00 WIB, kecuali hari libur nasional.</li>
+                <li><strong>Jam Layanan:</strong> Senin sampai Sabtu, 09.00-20.00 WIB, kecuali hari libur nasional.</li>
+                <li><strong>Laporan:</strong> pesan tertulis melalui WhatsApp atau email yang memuat nama proyek, URL, deskripsi masalah, dan tangkapan layar bila ada.</li>
+                <li><strong>Waktu Respons:</strong> waktu dari Laporan yang lengkap sampai konfirmasi dan diagnosis awal oleh manusia.</li>
+                <li><strong>Waktu Perbaikan:</strong> waktu sampai masalah selesai atau solusi sementara tersedia.</li>
+                <li><strong>Uptime:</strong> persentase menit dalam satu bulan kalender ketika website merespons dengan status HTTP 200-399 dalam 60 detik, diukur oleh monitor eksternal.</li>
+                <li><strong>Gangguan Kritis:</strong> website tidak dapat diakses, alur utama seperti checkout, WhatsApp, formulir, atau login gagal untuk semua pengguna, atau terjadi dugaan kebocoran data.</li>
+                <li><strong>Gangguan Mayor:</strong> halaman atau fitur penting gagal tanpa solusi sementara dan berdampak material pada penjualan.</li>
+                <li><strong>Gangguan Minor:</strong> masalah kosmetik, fitur non-kritis, atau gangguan yang masih memiliki solusi sementara.</li>
+              </ol>
+            </section>
+
+            <section class="sla-section" id="id-cannes">
+              <div class="sla-sec-head"><span class="sla-num">03</span><h2>Kewajiban Cannes</h2></div>
+              <ol class="sla-clauses">
+                <li>Mengerjakan lingkup sesuai proposal, timeline, dan invoice yang disetujui.</li>
+                <li>Menyediakan satu narahubung dan memberi pembaruan progres minimal sekali per minggu untuk proyek yang berdurasi lebih dari 7 hari.</li>
+                <li>Menjaga standar keamanan dasar: SSL aktif, versi perangkat lunak stabil terbaru, kredensial admin yang kuat, dan pencadangan data.</li>
+                <li>Memberi tahu Klien secara tertulis dalam 1 hari kerja jika terjadi insiden yang memengaruhi website Klien.</li>
+                <li>Menjaga kerahasiaan data dan materi Klien, dan tidak menggunakannya untuk tujuan lain tanpa izin tertulis.</li>
+                <li>Menyerahkan akses domain, hosting, dan email atas nama Klien setelah pelunasan.</li>
+              </ol>
+            </section>
+
+            <section class="sla-section" id="id-client">
+              <div class="sla-sec-head"><span class="sla-num">04</span><h2>Kewajiban Klien</h2></div>
+              <ol class="sla-clauses">
+                <li>Menyediakan materi yang dibutuhkan, termasuk logo, foto, teks, data produk, dan akses yang diperlukan.</li>
+                <li>Menunjuk satu pengambil keputusan dan memberikan persetujuan secara tertulis.</li>
+                <li>Menanggapi permintaan persetujuan dalam 3 hari kerja. Jika terlambat, timeline bergeser sesuai lama keterlambatan.</li>
+                <li>Menjamin bahwa materi yang dikirim tidak melanggar hak cipta, merek, privasi, atau hukum yang berlaku, serta memiliki izin usaha dan sertifikasi yang relevan.</li>
+                <li>Menjaga kerahasiaan kredensial dan segera memberi tahu Cannes jika terjadi akses tidak sah.</li>
+                <li>Melunasi invoice sesuai tenggat yang tertera.</li>
+                <li>Tidak menggunakan layanan untuk konten ilegal, malware, phishing, perjudian, produk palsu, ujaran kebencian, atau pelanggaran data pribadi.</li>
+              </ol>
+            </section>
+
+            <section class="sla-section" id="id-levels">
+              <div class="sla-sec-head"><span class="sla-num">05</span><h2>Tingkat layanan dan target respons</h2></div>
+              <ol class="sla-clauses">
+                <li>Target dihitung dalam Hari Kerja dan hanya berjalan pada Jam Layanan.</li>
+                <li>Target berlaku untuk Laporan yang dikirim melalui kanal resmi yang disepakati.</li>
+                <li>Waktu berhenti selama Cannes menunggu informasi, akses, atau persetujuan dari Klien.</li>
+                <li>Eskalasi: jika target respons terlewat, Klien dapat mengirim kata <strong>ESKALASI</strong> di kanal yang sama. Cannes menanggapi dalam 4 jam kerja.</li>
+                <li>Target ini adalah standar kerja yang mengikat. Satu-satunya kompensasi finansial yang disepakati adalah kredit layanan pada Pasal 06.</li>
+              </ol>
+
+              <div class="sev-grid">
+                <div class="sev-card sev-card--critical">
+                  <h4><span class="sev-dot"></span>Kritis</h4>
+                  <p>Website tidak dapat diakses, alur utama gagal untuk semua pengguna, atau ada dugaan kebocoran data. Mitigasi dalam 8 jam kerja dan perbaikan permanen dalam 2 hari kerja, sejauh berada dalam kendali Cannes.</p>
+                  <dl class="sev-stats">
+                    <div><dt>Respons</dt><dd>2 jam kerja</dd></div>
+                    <div><dt>Perbaikan</dt><dd>2 hari kerja</dd></div>
+                  </dl>
+                </div>
+                <div class="sev-card sev-card--major">
+                  <h4><span class="sev-dot"></span>Mayor</h4>
+                  <p>Halaman atau fitur penting gagal tanpa solusi sementara dan berdampak material pada penjualan atau operasional.</p>
+                  <dl class="sev-stats">
+                    <div><dt>Respons</dt><dd>4 jam kerja</dd></div>
+                    <div><dt>Perbaikan</dt><dd>3 hari kerja</dd></div>
+                  </dl>
+                </div>
+                <div class="sev-card sev-card--minor">
+                  <h4><span class="sev-dot"></span>Minor</h4>
+                  <p>Masalah kosmetik, fitur non-kritis, atau gangguan yang masih memiliki solusi sementara.</p>
+                  <dl class="sev-stats">
+                    <div><dt>Respons</dt><dd>1 hari kerja</dd></div>
+                    <div><dt>Perbaikan</dt><dd>5 hari kerja</dd></div>
+                  </dl>
+                </div>
+                <div class="sev-card sev-card--change">
+                  <h4><span class="sev-dot"></span>Perubahan</h4>
+                  <p>Permintaan konten, desain, atau fitur baru. Bukan kerusakan, sehingga dijadwalkan sebagai pekerjaan terpisah.</p>
+                  <dl class="sev-stats">
+                    <div><dt>Respons</dt><dd>1 hari kerja</dd></div>
+                    <div><dt>Jadwal</dt><dd>3 hari kerja</dd></div>
+                  </dl>
+                </div>
+              </div>
+
+              <p class="sla-note">
+                <strong>Catatan:</strong> perbaikan permanen dapat bergantung pada penyedia pihak ketiga. Jika Cannes harus menunggu pihak ketiga, Klien menerima pembaruan status setiap hari kerja sampai masalah selesai.
+              </p>
+            </section>
+
+            <section class="sla-section" id="id-uptime">
+              <div class="sla-sec-head"><span class="sla-num">06</span><h2>Uptime dan pemeliharaan</h2></div>
+              <ol class="sla-clauses">
+                <li>Cannes menargetkan uptime 99,5% per bulan kalender untuk website yang hosting dan pemeliharaannya dikelola Cannes.</li>
+                <li>Uptime dihitung dengan rumus berikut, berdasarkan pemantauan eksternal setiap 5 menit.</li>
+                <li>Pengecualian: pemeliharaan terjadwal dengan pemberitahuan minimal 24 jam dan maksimal 4 jam per bulan pada pukul 00.00-05.00 WIB; gangguan pihak ketiga; force majeure; perubahan yang dilakukan Klien; propagasi DNS; masalah ISP atau perangkat Klien; domain atau hosting kedaluwarsa karena belum dibayar; serta kompromi keamanan akibat kelalaian kredensial Klien.</li>
+                <li>Laporan uptime bulanan tersedia atas permintaan.</li>
+                <li>Untuk klien pemeliharaan aktif: jika uptime di bawah 99,5%, Cannes memberikan kredit 10% dari biaya pemeliharaan bulan tersebut untuk setiap kekurangan 0,5%, dengan batas maksimal 50%. Klaim diajukan dalam 14 hari dan dipakai untuk tagihan berikutnya, bukan pembayaran tunai.</li>
+                <li>Pencadangan harian tersedia untuk paket pemeliharaan dengan retensi 7 hari dan pemulihan dalam 1 hari kerja. Tanpa paket pemeliharaan, pencadangan menjadi tanggung jawab Klien.</li>
+              </ol>
+
+              <div class="sla-formula">
+                Uptime = (menit dalam bulan - menit gangguan) / menit dalam bulan x 100%
+              </div>
+
+              <p class="sla-note">
+                <strong>Penting:</strong> target uptime hanya berlaku selama hosting dan pemeliharaan aktif serta dibayar. Jika layanan pihak ketiga menjadi penyebab, Cannes membantu eskalasi tetapi tidak dapat menjamin waktu perbaikan penyedia tersebut.
+              </p>
+            </section>
+
+            <section class="sla-section" id="id-change">
+              <div class="sla-sec-head"><span class="sla-num">07</span><h2>Permintaan perubahan</h2></div>
+              <ol class="sla-clauses">
+                <li>Pekerjaan di luar lingkup yang disepakati harus diajukan secara tertulis.</li>
+                <li>Cannes memberikan estimasi biaya dan waktu dalam 2 hari kerja.</li>
+                <li>Pekerjaan dimulai setelah persetujuan tertulis. Perubahan dapat menggeser timeline proyek.</li>
+                <li>Permintaan mendesak dikerjakan sesuai ketersediaan dan dapat dikenakan biaya prioritas yang disepakati tertulis.</li>
+              </ol>
+            </section>
+
+            <section class="sla-section" id="id-legal">
+              <div class="sla-sec-head"><span class="sla-num">08</span><h2>Kepatuhan hukum dan kekayaan intelektual</h2></div>
+              <ol class="sla-clauses">
+                <li>Para Pihak mematuhi hukum Republik Indonesia, termasuk UU Informasi dan Transaksi Elektronik, UU Perlindungan Data Pribadi, UU Hak Cipta, dan ketentuan perlindungan konsumen.</li>
+                <li>Data pribadi hanya diproses seperlunya untuk proyek, tidak dijual, dan dihapus atau dikembalikan dalam 30 hari setelah proyek berakhir atas permintaan Klien.</li>
+                <li>Jika terjadi pelanggaran data pribadi, Cannes memberi tahu Klien dalam 1x24 jam dan membantu kewajiban pelaporan yang berlaku.</li>
+                <li>Klien memberikan lisensi terbatas kepada Cannes untuk menggunakan materi Klien selama proyek. Setelah pelunasan, Klien memiliki hak penuh atas desain dan kode yang dibuat khusus, kecuali komponen pihak ketiga dan aset berlisensi.</li>
+                <li>Cannes dapat menampilkan proyek dalam portofolio, kecuali Klien meminta kerahasiaan secara tertulis.</li>
+                <li>Aset pihak ketiga seperti font, ikon, foto, dan plugin tetap tunduk pada lisensinya masing-masing. Merek dagang tetap milik pemiliknya.</li>
+                <li>Cannes dapat menangguhkan layanan segera, dengan pemberitahuan tertulis, jika menemukan konten yang melanggar hukum atau membahayakan keamanan.</li>
+              </ol>
+            </section>
+
+            <section class="sla-section" id="id-billing">
+              <div class="sla-sec-head"><span class="sla-num">09</span><h2>Penagihan, penangguhan, dan pengakhiran</h2></div>
+              <ol class="sla-clauses">
+                <li>Pembayaran proyek: DP 50% untuk memulai dan 50% sebelum serah terima. Pemeliharaan dibayar di muka setiap bulan.</li>
+                <li>Invoice jatuh tempo dalam 7 hari kalender.</li>
+                <li>Setelah 7 hari, Cannes mengirim pengingat tertulis dan dapat menghentikan dukungan sementara setelah 3 hari kerja. Setelah 30 hari, hosting dan domain dapat ditangguhkan dengan pemberitahuan. Data disimpan 30 hari, lalu dihapus, kecuali hukum mewajibkan lain.</li>
+                <li>Serah terima dianggap selesai jika Klien tidak memberikan keberatan tertulis dalam 5 hari kerja setelah preview final.</li>
+                <li>Garansi bug 30 hari setelah peluncuran mencakup kesalahan yang disebabkan oleh Cannes. Garansi tidak mencakup permintaan baru, perubahan konten, atau masalah pihak ketiga.</li>
+                <li>Pemeliharaan dapat diakhiri oleh salah satu pihak dengan pemberitahuan tertulis 30 hari. Tidak ada pengembalian dana untuk bulan berjalan. Serah terima akses dilakukan dalam 5 hari kerja.</li>
+                <li>Pelanggaran material: pihak yang dirugikan memberi pemberitahuan tertulis dan masa perbaikan 7 hari. Jika tidak diperbaiki, perjanjian dapat diakhiri. Konten ilegal atau tunggakan lebih dari 30 hari dapat menyebabkan pengakhiran segera.</li>
+              </ol>
+            </section>
+
+            <section class="sla-section" id="id-terms">
+              <div class="sla-sec-head"><span class="sla-num">10</span><h2>Batasan tanggung jawab, sengketa, dan perubahan SLA</h2></div>
+              <ol class="sla-clauses">
+                <li>Tanggung jawab Cannes dibatasi pada total biaya yang dibayarkan untuk layanan terdampak dalam 3 bulan sebelum klaim, atau nilai proyek untuk pekerjaan sekali bayar.</li>
+                <li>Cannes tidak bertanggung jawab atas kerugian tidak langsung, kehilangan keuntungan, atau kehilangan data di luar cadangan yang tersedia.</li>
+                <li>Force majeure meliputi bencana alam, pemadaman listrik, gangguan jaringan nasional, kebijakan pemerintah, atau keadaan lain di luar kendali wajar.</li>
+                <li>Hukum yang berlaku adalah hukum Republik Indonesia. Versi Bahasa Indonesia mengikat. Sengketa diselesaikan melalui musyawarah dalam 30 hari; jika gagal, melalui pengadilan yang berwenang di Indonesia.</li>
+                <li>Cannes dapat memperbarui SLA ini dengan pemberitahuan 30 hari untuk perubahan material. Versi terbaru selalu tersedia di halaman ini. Penggunaan layanan setelah tanggal berlaku berarti menyetujui versi baru.</li>
+                <li>Jika satu ketentuan tidak dapat dilaksanakan, ketentuan lainnya tetap berlaku.</li>
+              </ol>
+
+              <div class="sla-contact">
+                <div>
+                  <h3>Pertanyaan tentang SLA ini?</h3>
+                  <p>Kirim pesan ke WhatsApp +62 878 7725 0304 atau email daffanurhatae551@gmail.com. Kami membalas pada Jam Layanan.</p>
+                </div>
+                <a class="btn btn--primary" href="https://wa.me/6287877250304" target="_blank" rel="noopener">Chat WhatsApp</a>
+              </div>
+
+              <p class="sla-footnote">
+                SLA Cannes versi 1.0, berlaku 25 Oktober 2026. Dokumen ini bukan pengganti perjanjian proyek yang ditandatangani.
+              </p>
+            </section>
+          </div>
+        </article>
+
+        
+        <article class="sla-layout" id="sla-en" data-sla-doc="en" lang="en" aria-label="Cannes SLA, English version" hidden>
+          <aside class="sla-toc">
+            <h2>Contents</h2>
+            <nav aria-label="Document contents">
+              <ol>
+                <li><a href="#en-scope"><span class="n">01</span><span>Scope</span></a></li>
+                <li><a href="#en-definitions"><span class="n">02</span><span>Definitions and hours</span></a></li>
+                <li><a href="#en-cannes"><span class="n">03</span><span>Cannes obligations</span></a></li>
+                <li><a href="#en-client"><span class="n">04</span><span>Client obligations</span></a></li>
+                <li><a href="#en-levels"><span class="n">05</span><span>Service levels</span></a></li>
+                <li><a href="#en-uptime"><span class="n">06</span><span>Uptime and maintenance</span></a></li>
+                <li><a href="#en-change"><span class="n">07</span><span>Change requests</span></a></li>
+                <li><a href="#en-legal"><span class="n">08</span><span>Legal compliance</span></a></li>
+                <li><a href="#en-billing"><span class="n">09</span><span>Billing and termination</span></a></li>
+                <li><a href="#en-terms"><span class="n">10</span><span>Liability and disputes</span></a></li>
+              </ol>
+            </nav>
+          </aside>
+
+          <div class="sla-doc">
+            <p class="sla-intro">
+              This document sets out service standards, response times, rights, and obligations of both parties.
+              By approving a Cannes proposal or invoice, the Client accepts this SLA.
+              This English version is provided for convenience. The Indonesian version prevails in case of conflict.
+            </p>
+
+            <section class="sla-section" id="en-scope">
+              <div class="sla-sec-head"><span class="sla-num">01</span><h2>Scope</h2></div>
+              <ol class="sla-clauses">
+                <li>This SLA applies to every website development project and maintenance plan delivered by Cannes.</li>
+                <li>It covers project communication, response and fix targets, availability of websites managed by Cannes, the obligations of both parties, legal compliance, and enforcement.</li>
+                <li>It does not cover internal outages at the domain registrar, hosting provider, payment gateway, or other third-party services. Cannes will still coordinate and communicate with those providers on the Client's behalf.</li>
+                <li>Order of precedence: (1) the signed proposal or invoice, (2) this SLA, (3) marketing material on the website. In case of conflict, the specific terms in the signed proposal apply to that project.</li>
+              </ol>
+            </section>
+
+            <section class="sla-section" id="en-definitions">
+              <div class="sla-sec-head"><span class="sla-num">02</span><h2>Definitions and service hours</h2></div>
+              <ol class="sla-clauses">
+                <li><strong>Business Day:</strong> Monday to Friday, 09.00-17.00 WIB, excluding Indonesian national holidays.</li>
+                <li><strong>Service Hours:</strong> Monday to Saturday, 09.00-20.00 WIB, excluding national holidays.</li>
+                <li><strong>Report:</strong> a written message via WhatsApp or email containing the project name, URL, description of the issue, and a screenshot where possible.</li>
+                <li><strong>Response Time:</strong> time from a complete Report to a human acknowledgement and initial diagnosis.</li>
+                <li><strong>Fix Time:</strong> time until the issue is resolved or a workaround is available.</li>
+                <li><strong>Uptime:</strong> the percentage of minutes in a calendar month in which the website responds with HTTP status 200-399 within 60 seconds, measured by an external monitor.</li>
+                <li><strong>Critical Incident:</strong> the website is unreachable, a core flow such as checkout, WhatsApp, forms, or login fails for all users, or a data breach is suspected.</li>
+                <li><strong>Major Incident:</strong> a key page or feature fails without a workaround and has a material impact on sales.</li>
+                <li><strong>Minor Incident:</strong> a cosmetic issue, a non-critical feature, or a problem that still has a workaround.</li>
+              </ol>
+            </section>
+
+            <section class="sla-section" id="en-cannes">
+              <div class="sla-sec-head"><span class="sla-num">03</span><h2>Cannes obligations</h2></div>
+              <ol class="sla-clauses">
+                <li>Deliver the agreed scope in line with the approved proposal, timeline, and invoice.</li>
+                <li>Provide one point of contact and send a progress update at least once a week for projects longer than 7 days.</li>
+                <li>Maintain basic security: active SSL, current stable software, strong admin credentials, and data backups.</li>
+                <li>Notify the Client in writing within 1 business day of any incident affecting their website.</li>
+                <li>Keep Client data and materials confidential and not use them for any other purpose without written permission.</li>
+                <li>Hand over domain, hosting, and email access in the Client's name once payment is complete.</li>
+              </ol>
+            </section>
+
+            <section class="sla-section" id="en-client">
+              <div class="sla-sec-head"><span class="sla-num">04</span><h2>Client obligations</h2></div>
+              <ol class="sla-clauses">
+                <li>Provide the required materials, including logo, photos, copy, product data, and necessary access.</li>
+                <li>Appoint one decision-maker and give approval in writing.</li>
+                <li>Respond to approval requests within 3 business days. Delays shift the timeline by the same number of days.</li>
+                <li>Ensure all materials do not infringe copyright, trademarks, privacy, or applicable law, and hold any required business permits and certifications.</li>
+                <li>Keep credentials secure and notify Cannes immediately of unauthorised access.</li>
+                <li>Pay invoices by the stated due date.</li>
+                <li>Not use the service for illegal content, malware, phishing, gambling, counterfeit goods, hate speech, or privacy violations.</li>
+              </ol>
+            </section>
+
+            <section class="sla-section" id="en-levels">
+              <div class="sla-sec-head"><span class="sla-num">05</span><h2>Service levels and response targets</h2></div>
+              <ol class="sla-clauses">
+                <li>Targets are counted in Business Days and only run during Service Hours.</li>
+                <li>Targets apply to Reports sent through the agreed official channel.</li>
+                <li>Time pauses while Cannes waits for information, access, or approval from the Client.</li>
+                <li>Escalation: if a response target is missed, the Client may send the word <strong>ESCALATION</strong> in the same channel. Cannes will respond within 4 business hours.</li>
+                <li>These targets are binding service standards. The only agreed financial remedy is the service credit in Section 06.</li>
+              </ol>
+
+              <div class="sev-grid">
+                <div class="sev-card sev-card--critical">
+                  <h4><span class="sev-dot"></span>Critical</h4>
+                  <p>The website is unreachable, a core flow fails for all users, or a data breach is suspected. Mitigation within 8 business hours and a permanent fix within 2 business days, where within Cannes' control.</p>
+                  <dl class="sev-stats">
+                    <div><dt>Response</dt><dd>2 business hours</dd></div>
+                    <div><dt>Fix</dt><dd>2 business days</dd></div>
+                  </dl>
+                </div>
+                <div class="sev-card sev-card--major">
+                  <h4><span class="sev-dot"></span>Major</h4>
+                  <p>A key page or feature fails without a workaround and has a material impact on sales or operations.</p>
+                  <dl class="sev-stats">
+                    <div><dt>Response</dt><dd>4 business hours</dd></div>
+                    <div><dt>Fix</dt><dd>3 business days</dd></div>
+                  </dl>
+                </div>
+                <div class="sev-card sev-card--minor">
+                  <h4><span class="sev-dot"></span>Minor</h4>
+                  <p>A cosmetic issue, a non-critical feature, or a problem that still has a workaround.</p>
+                  <dl class="sev-stats">
+                    <div><dt>Response</dt><dd>1 business day</dd></div>
+                    <div><dt>Fix</dt><dd>5 business days</dd></div>
+                  </dl>
+                </div>
+                <div class="sev-card sev-card--change">
+                  <h4><span class="sev-dot"></span>Change</h4>
+                  <p>A request for new content, design, or features. Not a fault, so it is scheduled as separate work.</p>
+                  <dl class="sev-stats">
+                    <div><dt>Response</dt><dd>1 business day</dd></div>
+                    <div><dt>Schedule</dt><dd>3 business days</dd></div>
+                  </dl>
+                </div>
+              </div>
+
+              <p class="sla-note">
+                <strong>Note:</strong> a permanent fix may depend on a third-party provider. If Cannes has to wait for a third party, the Client receives a status update every business day until the issue is closed.
+              </p>
+            </section>
+
+            <section class="sla-section" id="en-uptime">
+              <div class="sla-sec-head"><span class="sla-num">06</span><h2>Uptime and maintenance</h2></div>
+              <ol class="sla-clauses">
+                <li>Cannes targets 99.5% uptime per calendar month for websites whose hosting and maintenance are managed by Cannes.</li>
+                <li>Uptime is calculated with the formula below, based on an external check every 5 minutes.</li>
+                <li>Exclusions: scheduled maintenance with at least 24 hours' notice and a maximum of 4 hours per month between 00.00 and 05.00 WIB; third-party outages; force majeure; changes made by the Client; DNS propagation; the Client's ISP or devices; domain or hosting expiry due to non-payment; and security compromise caused by the Client's credential negligence.</li>
+                <li>A monthly uptime report is available on request.</li>
+                <li>For active maintenance clients: if uptime falls below 99.5%, Cannes credits 10% of that month's maintenance fee for each 0.5% shortfall, capped at 50%. Claims must be made within 14 days and are applied to the next invoice, not paid in cash.</li>
+                <li>Daily backups are included in maintenance plans with 7-day retention and restore within 1 business day. Without a maintenance plan, backups are the Client's responsibility.</li>
+              </ol>
+
+              <div class="sla-formula">
+                Uptime = (minutes in month - minutes down) / minutes in month x 100%
+              </div>
+
+              <p class="sla-note">
+                <strong>Important:</strong> the uptime target only applies while hosting and maintenance are active and paid. If a third-party service is the cause, Cannes helps escalate but cannot guarantee that provider's repair time.
+              </p>
+            </section>
+
+            <section class="sla-section" id="en-change">
+              <div class="sla-sec-head"><span class="sla-num">07</span><h2>Change requests</h2></div>
+              <ol class="sla-clauses">
+                <li>Work outside the agreed scope must be requested in writing.</li>
+                <li>Cannes provides a cost and time estimate within 2 business days.</li>
+                <li>Work starts after written approval. Changes may shift the project timeline.</li>
+                <li>Urgent requests are handled subject to availability and may carry a priority fee agreed in writing.</li>
+              </ol>
+            </section>
+
+            <section class="sla-section" id="en-legal">
+              <div class="sla-sec-head"><span class="sla-num">08</span><h2>Legal compliance and intellectual property</h2></div>
+              <ol class="sla-clauses">
+                <li>Both parties comply with the laws of the Republic of Indonesia, including the Electronic Information and Transactions Law, the Personal Data Protection Law, the Copyright Law, and consumer protection rules.</li>
+                <li>Personal data is processed only as needed for the project, is never sold, and is deleted or returned within 30 days after the project ends at the Client's request.</li>
+                <li>If a personal data breach occurs, Cannes notifies the Client within 24 hours and assists with applicable reporting obligations.</li>
+                <li>The Client grants Cannes a limited licence to use their materials for the project. After full payment, the Client owns the custom design and code, excluding third-party components and licensed assets.</li>
+                <li>Cannes may show the work in its portfolio unless the Client requests confidentiality in writing.</li>
+                <li>Third-party assets such as fonts, icons, photos, and plugins remain subject to their own licences. Trademarks remain with their owners.</li>
+                <li>Cannes may suspend the service immediately, with written notice, if it finds unlawful content or a security risk.</li>
+              </ol>
+            </section>
+
+            <section class="sla-section" id="en-billing">
+              <div class="sla-sec-head"><span class="sla-num">09</span><h2>Billing, suspension, and termination</h2></div>
+              <ol class="sla-clauses">
+                <li>Project payment: 50% deposit to start and 50% before handover. Maintenance is paid monthly in advance.</li>
+                <li>Invoices are due within 7 calendar days.</li>
+                <li>After 7 days, Cannes sends a written reminder and may pause support after 3 business days. After 30 days, hosting and domain may be suspended with notice. Data is kept for 30 days, then deleted unless the law requires otherwise.</li>
+                <li>Handover is deemed complete if the Client raises no written objection within 5 business days of the final preview.</li>
+                <li>The 30-day bug warranty after launch covers errors caused by Cannes. It excludes new requests, content changes, and third-party issues.</li>
+                <li>Maintenance may be ended by either party with 30 days' written notice. No refund is given for the current month. Access is handed over within 5 business days.</li>
+                <li>Material breach: the affected party gives written notice and a 7-day cure period. If the breach is not cured, the agreement may be terminated. Illegal content or arrears over 30 days may lead to immediate termination.</li>
+              </ol>
+            </section>
+
+            <section class="sla-section" id="en-terms">
+              <div class="sla-sec-head"><span class="sla-num">10</span><h2>Liability, disputes, and changes to this SLA</h2></div>
+              <ol class="sla-clauses">
+                <li>Cannes' liability is limited to the total fees paid for the affected service in the 3 months before the claim, or the project fee for one-off work.</li>
+                <li>Cannes is not liable for indirect or consequential loss, lost profit, or data loss beyond the available backups.</li>
+                <li>Force majeure includes natural disasters, power outages, nationwide network failures, government action, or other circumstances beyond reasonable control.</li>
+                <li>The governing law is the Republic of Indonesia. The Indonesian version prevails. Disputes are resolved through 30 days of good-faith negotiation; if that fails, through the competent courts in Indonesia.</li>
+                <li>Cannes may update this SLA with 30 days' notice for material changes. The latest version is always available on this page. Continued use after the effective date means acceptance of the new version.</li>
+                <li>If any provision is unenforceable, the remaining provisions stay in force.</li>
+              </ol>
+
+              <div class="sla-contact">
+                <div>
+                  <h3>Questions about this SLA?</h3>
+                  <p>Message us on WhatsApp at +62 878 7725 0304 or email daffanurhatae551@gmail.com. We reply during Service Hours.</p>
+                </div>
+                <a class="btn btn--primary" href="https://wa.me/6287877250304" target="_blank" rel="noopener">Chat on WhatsApp</a>
+              </div>
+
+              <p class="sla-footnote">
+                Cannes SLA version 1.0, effective 25 October 2026. This document does not replace a signed project agreement.
+              </p>
+            </section>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="sla-footer">
+    <div class="container sla-footer__inner">
+      <p>&copy; <span id="year">2026</span> Cannes. SLA v1.0.</p>
+      <p><a href="index.html">Beranda / Home</a> &middot; <a href="credits.html">Kredit foto / Credits</a></p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      "use strict";
+
+      var COPY = {
+        id: {
+          title: "SLA Cannes - Service Level Agreement",
+          description: "Service Level Agreement Cannes: waktu respons, target uptime, kewajiban, dan aturan kerja untuk proyek website dan pemeliharaan.",
+          eyebrow: "Dokumen resmi",
+          lead: "Standar layanan, waktu respons, kewajiban, dan aturan kerja antara Cannes dan Klien. Dokumen ini melengkapi proposal atau invoice yang disetujui.",
+          metaTitle: "Ringkasan dokumen",
+          kVersion: "Versi",
+          kEffective: "Berlaku",
+          kScope: "Cakupan",
+          kLanguage: "Bahasa",
+          effective: "25 Oktober 2026",
+          scopeMeta: "Proyek dan pemeliharaan",
+          languageMeta: "Indonesia (mengikat)",
+          back: "Kembali ke beranda",
+          print: "Cetak / simpan PDF",
+          switchAria: "Bahasa dokumen",
+          stat1: "jam kerja untuk respons kritis",
+          stat2v: "99,5%",
+          stat2: "target uptime bulanan",
+          stat3: "hari garansi bug setelah peluncuran",
+          stat4v: "Sen-Sab",
+          stat4: "09.00-20.00 WIB"
+        },
+        en: {
+          title: "Cannes SLA - Service Level Agreement",
+          description: "Cannes service level agreement: response times, uptime target, obligations, and working rules for website projects and maintenance.",
+          eyebrow: "Official document",
+          lead: "Service standards, response times, obligations, and working rules between Cannes and the Client. This document complements the approved proposal or invoice.",
+          metaTitle: "Document summary",
+          kVersion: "Version",
+          kEffective: "Effective",
+          kScope: "Scope",
+          kLanguage: "Language",
+          effective: "25 October 2026",
+          scopeMeta: "Projects and maintenance",
+          languageMeta: "Indonesian (binding)",
+          back: "Back to home",
+          print: "Print / save PDF",
+          switchAria: "Document language",
+          stat1: "business hours for critical response",
+          stat2v: "99.5%",
+          stat2: "monthly uptime target",
+          stat3: "days of bug warranty after launch",
+          stat4v: "Mon-Sat",
+          stat4: "9am-8pm Jakarta time"
+        }
+      };
+
+      var docs = document.querySelectorAll("[data-sla-doc]");
+      var buttons = document.querySelectorAll("[data-sla-lang-btn]");
+      var switchGroup = document.querySelector("[data-sla-switch]");
+      var description = document.querySelector('meta[name="description"]');
+      var year = document.getElementById("year");
+
+      if (year) year.textContent = String(new Date().getFullYear());
+
+      function apply(lang, save) {
+        var copy = COPY[lang] || COPY.id;
+
+        docs.forEach(function (doc) {
+          doc.hidden = doc.getAttribute("data-sla-doc") !== lang;
+        });
+
+        buttons.forEach(function (btn) {
+          btn.setAttribute("aria-pressed", btn.getAttribute("data-sla-lang-btn") === lang ? "true" : "false");
+        });
+
+        document.querySelectorAll("[data-sla-i18n]").forEach(function (el) {
+          var value = copy[el.getAttribute("data-sla-i18n")];
+          if (value != null) el.textContent = value;
+        });
+
+        document.documentElement.lang = lang;
+        document.title = copy.title;
+        if (description) description.setAttribute("content", copy.description);
+        if (switchGroup) switchGroup.setAttribute("aria-label", copy.switchAria);
+
+        if (save) {
+          try {
+            localStorage.setItem("cannes-lang", lang);
+          } catch (e) {
+            
+          }
+
+          var url = new URL(window.location.href);
+          url.searchParams.set("lang", lang);
+          try {
+            window.history.replaceState(null, "", url.pathname + url.search + url.hash);
+          } catch (e) {
+            
+          }
+        }
+      }
+
+      buttons.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          apply(btn.getAttribute("data-sla-lang-btn"), true);
+        });
+      });
+
+      var printBtn = document.querySelector("[data-sla-print]");
+      if (printBtn) {
+        printBtn.addEventListener("click", function () {
+          window.print();
+        });
+      }
+
+      var params = new URLSearchParams(window.location.search);
+      var fromUrl = params.get("lang");
+      var saved = null;
+      try {
+        saved = localStorage.getItem("cannes-lang");
+      } catch (e) {
+        
+      }
+
+      var initial = fromUrl === "en" || fromUrl === "id" ? fromUrl : saved === "en" ? "en" : "id";
+      apply(initial, false);
+    })();
+  </script>
+</body>
+</html>

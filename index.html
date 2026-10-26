@@ -121,7 +121,7 @@
 
       <nav class="nav" aria-label="Navigasi utama" data-i18n-aria="nav.aria">
         <a href="#manfaat" data-i18n="nav.why">Manfaat</a>
-        <a href="#layanan" data-i18n="nav.services">Layanan</a>
+        <a href="templates.html" data-i18n="nav.templates">Template</a>
         <a href="#harga" data-i18n="nav.pricing">Harga</a>
         <a href="#faq" data-i18n="nav.faq">FAQ</a>
         <a href="#kontak" data-i18n="nav.contact">Kontak</a>
@@ -143,7 +143,7 @@
     <div class="mobile-menu__inner">
       <nav class="mobile-nav" aria-label="Navigasi seluler" data-i18n-aria="nav.ariaMobile">
         <a href="#manfaat"><span data-i18n="nav.why">Manfaat</span><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></a>
-        <a href="#layanan"><span data-i18n="nav.services">Layanan</span><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></a>
+        <a href="templates.html"><span data-i18n="nav.templates">Template</span><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></a>
         <a href="#harga"><span data-i18n="nav.pricing">Harga</span><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></a>
         <a href="#faq"><span data-i18n="nav.faq">FAQ</span><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></a>
         <a href="#kontak"><span data-i18n="nav.contact">Kontak</span><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"></use></svg></a>
@@ -355,65 +355,54 @@
     </section>
 
     
-    <section class="section services" id="layanan">
-      <div class="container">
-        <div class="section-head">
-          <h2 class="section-title" data-i18n="services.title">Yang bisa kami bangun</h2>
-          <p class="section-sub" data-i18n="services.sub">Dari satu halaman sampai toko online. Pilih sesuai tahap bisnismu.</p>
+    <section class="section tpl-teaser" id="template" aria-labelledby="tpl-teaser-title">
+      <div class="container tpl-teaser__inner">
+        <div class="tpl-teaser__copy">
+          <p class="eyebrow eyebrow--dark" data-i18n="teaser.eyebrow">Galeri template</p>
+          <h2 class="section-title tpl-teaser__title" id="tpl-teaser-title" data-i18n="teaser.title">Coba dulu.<br><span>Baru pilih.</span></h2>
+          <p class="tpl-teaser__lead" data-i18n="teaser.sub">Sembilan template siap pakai untuk UMKM. Buka demonya di desktop atau HP, lihat sendiri rasanya, baru kita ganti warna dan isinya jadi milikmu.</p>
+          <ul class="tpl-teaser__tags">
+            <li data-i18n="teaser.tag1">Website</li>
+            <li data-i18n="teaser.tag2">Aplikasi</li>
+            <li data-i18n="teaser.tag3">Siap dipakai</li>
+          </ul>
+          <div class="tpl-teaser__actions">
+            <a class="btn btn--primary" href="templates.html" data-i18n="teaser.cta">Buka galeri template</a>
+            <span class="tpl-teaser__note" data-i18n="teaser.note">Demo langsung · tanpa daftar · bisa di HP</span>
+          </div>
         </div>
 
-        <div class="service-list">
-          <a class="service-row" href="#kontak">
-            <span class="service-num">01</span>
-            <div class="service-body">
-              <h3 data-i18n="s1.title">Landing page</h3>
-              <p data-i18n="s1.body">Satu halaman fokus jualan. Cocok untuk campaign, launching produk, atau jasa.</p>
-            </div>
-            <div class="service-tags">
-              <span data-i18n="s1.tag1">Mulai Rp750 ribu</span>
-              <span data-i18n="s1.tag2">1-3 hari</span>
-            </div>
-            <svg class="icon service-arrow" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
-          </a>
+        <div class="tpl-teaser__art" aria-hidden="true">
+          <span class="tpl-teaser__badge"><i></i><span data-i18n="teaser.badge">9 template</span></span>
 
-          <a class="service-row" href="#kontak">
-            <span class="service-num">02</span>
-            <div class="service-body">
-              <h3 data-i18n="s2.title">Company profile</h3>
-              <p data-i18n="s2.body">Profil bisnis yang rapi: tentang, layanan, galeri, dan kontak. Bikin klien baru lebih percaya.</p>
-            </div>
-            <div class="service-tags">
-              <span data-i18n="s2.tag1">3-6 halaman</span>
-              <span data-i18n="s2.tag2">3-7 hari</span>
-            </div>
-            <svg class="icon service-arrow" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
-          </a>
+          <div class="tpl-teaser__device tpl-teaser__device--back">
+            <span class="tpl-teaser__line"></span>
+            <span class="tpl-teaser__line short"></span>
+            <span class="tpl-teaser__line"></span>
+          </div>
 
-          <a class="service-row" href="#kontak">
-            <span class="service-num">03</span>
-            <div class="service-body">
-              <h3 data-i18n="s3.title">Katalog &amp; toko online</h3>
-              <p data-i18n="s3.body">Pajang produk, harga, dan checkout. Terhubung QRIS, e-wallet, dan hitung ongkir.</p>
-            </div>
-            <div class="service-tags">
-              <span data-i18n="s3.tag1">Hingga 50 produk</span>
-              <span data-i18n="s3.tag2">7-14 hari</span>
-            </div>
-            <svg class="icon service-arrow" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
-          </a>
+          <div class="tpl-teaser__device tpl-teaser__device--mid">
+            <span class="tpl-teaser__bar"><i></i><i></i><i></i></span>
+            <span class="tpl-teaser__mini-grid"><i></i><i></i><i></i><i></i></span>
+          </div>
 
-          <a class="service-row" href="#kontak">
-            <span class="service-num">04</span>
-            <div class="service-body">
-              <h3 data-i18n="s4.title">Perawatan &amp; update</h3>
-              <p data-i18n="s4.body">Domain, hosting, backup, update konten, dan perbaikan bug. Tenang tanpa mikir teknis.</p>
+          <div class="tpl-teaser__device tpl-teaser__device--front">
+            <span class="tpl-teaser__bar"><i></i><i></i><i></i><b>dapurkita.id</b></span>
+            <div class="tpl-teaser__site">
+              <div class="tpl-teaser__site-nav"><b></b><i></i><i></i><em></em></div>
+              <div class="tpl-teaser__site-hero">
+                <span class="tpl-teaser__pill"></span>
+                <b></b>
+                <b class="short"></b>
+                <i></i>
+                <i class="short"></i>
+                <span class="tpl-teaser__cta"></span>
+              </div>
+              <div class="tpl-teaser__site-grid"><i></i><i></i><i></i></div>
             </div>
-            <div class="service-tags">
-              <span data-i18n="s4.tag1">Mulai Rp150rb/bln</span>
-              <span data-i18n="s4.tag2">Opsional</span>
-            </div>
-            <svg class="icon service-arrow" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
-          </a>
+          </div>
+
+          <span class="tpl-teaser__float" data-i18n="teaser.float">1-14 hari</span>
         </div>
       </div>
     </section>
@@ -831,7 +820,7 @@
         <div class="footer-col">
           <h3 data-i18n="footer.nav">Navigasi</h3>
           <a href="#manfaat" data-i18n="nav.why">Manfaat</a>
-          <a href="#layanan" data-i18n="nav.services">Layanan</a>
+          <a href="templates.html" data-i18n="nav.templates">Template</a>
           <a href="#harga" data-i18n="nav.pricing">Harga</a>
           <a href="#faq" data-i18n="nav.faq">FAQ</a>
         </div>

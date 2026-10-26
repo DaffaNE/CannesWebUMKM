@@ -89,6 +89,14 @@ The Indonesian version is the binding text. The English version is a courtesy tr
 - Hours: Monday to Saturday, 09.00-20.00 WIB
 - Business and project administration: Monday to Friday, 09.00-17.00 WIB
 
+## Templates
+
+The `templates.html` page shows nine example builds that cover the most common UMKM needs: food landing page, company profile, fashion catalogue, digital menu, booking page, creative portfolio, sales CRM, store admin panel, and point of sale.
+
+Each card renders a self-contained demo inside a sandboxed iframe. Opening a card shows the full-screen preview with a device toggle, previous and next navigation, and a WhatsApp request button. Demos can be linked directly with `#preview-<id>`.
+
+Template content and price data live in `assets/js/templates/` (`base.js`, `sites-a.js`, `sites-b.js`, `apps.js`). Page copy, filtering, and the preview dialog live in `assets/js/templates.js` and `assets/css/templates.css`. The demo businesses, names, and reviews are fictional. Photos reuse the credited images in `assets/img/`.
+
 ## About this website
 
 This site is a static build made of HTML, CSS, and JavaScript. There is no framework, no build step, and no database, so it can be hosted on GitHub Pages, Netlify, Vercel, or ordinary shared hosting.
@@ -97,5 +105,11 @@ This site is a static build made of HTML, CSS, and JavaScript. There is no frame
 - Fonts are self-hosted and embedded in `assets/css/fonts.css`, so there are no requests to external font services.
 - The contact form does not send data to a server. It validates the fields and opens WhatsApp with a pre-filled message.
 - There are no cookies, analytics, or third-party trackers.
-- `robots.txt` and `sitemap.xml` are included so the three public pages can be indexed. Both currently use `https://cannes.id/` as a placeholder. Replace it with the live domain in `index.html`, `sla.html`, `credits.html`, `robots.txt`, and `sitemap.xml` before publishing.
+- `robots.txt` and `sitemap.xml` are included so the four public pages can be indexed. Both currently use `https://cannes.id/` as a placeholder. Replace it with the live domain in `index.html`, `templates.html`, `sla.html`, `credits.html`, `robots.txt`, and `sitemap.xml` before publishing.
 - Photo, font, and icon attribution is listed on `credits.html`.
+
+## License
+
+The source code in this repository is released under the MIT License. See `LICENSE`.
+
+Brand assets, photography, and fonts keep their own terms. The photos are used under Creative Commons licenses, and the fonts are used under the SIL Open Font License. Check `credits.html` before reusing any of those files.

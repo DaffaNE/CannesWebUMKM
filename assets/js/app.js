@@ -22,6 +22,7 @@
     "nav.ariaMobile": "Mobile navigation",
     "nav.why": "Benefits",
     "nav.services": "Services",
+    "nav.templates": "Templates",
     "nav.pricing": "Pricing",
     "nav.faq": "FAQ",
     "nav.contact": "Contact",
@@ -127,6 +128,17 @@
     "type3.examples": "Salons, workshops, clinics, tutoring, events.",
     "type3.note": "Schedule, location, and a booking form.",
     "types.disclaimer": "Illustration photos from Wikimedia Commons, not Cannes clients. <a href='credits.html'>See credits</a>.",
+
+    "teaser.eyebrow": "Template gallery",
+    "teaser.title": "Try it first.<br><span>Then choose.</span>",
+    "teaser.sub": "Nine ready-made templates for small businesses. Open a demo on desktop or mobile, see how it feels, then we swap in your colours and content.",
+    "teaser.tag1": "Websites",
+    "teaser.tag2": "Apps",
+    "teaser.tag3": "Ready to use",
+    "teaser.cta": "Open the template gallery",
+    "teaser.note": "Live demos · no signup · works on mobile",
+    "teaser.badge": "9 templates",
+    "teaser.float": "1-14 days",
 
     "pricing.eyebrow": "Transparent pricing",
     "pricing.title": "Clear prices from the start.",
@@ -692,7 +704,7 @@
 
   var revealTargets = document.querySelectorAll(
     ".section-head, .promises-head, .hero-copy, .hero-art, .reality-stat, .reality-point, " +
-    ".bento-cell, .service-row, .step, .type-card, .price-card, .promise, .extras, " +
+    ".bento-cell, .service-row, .step, .type-card, .tpl-teaser__copy, .tpl-teaser__art, .price-card, .promise, .extras, " +
     ".contact-copy, .contact-form"
   );
 
